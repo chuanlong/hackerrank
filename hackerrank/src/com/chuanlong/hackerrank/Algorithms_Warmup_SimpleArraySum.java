@@ -15,6 +15,7 @@ public class Algorithms_Warmup_SimpleArraySum {
             arr[arr_i] = in.nextInt();
         }
         
+        in.close();
         int sum = 0;
         for(int i=0; i<n; i++){
         	sum+= arr[i];
