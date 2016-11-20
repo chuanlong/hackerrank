@@ -29,8 +29,9 @@ public class Algorithms_Sorting_InsertionSortPart1 {
     }
     
     private static void printArray(int[] ar) {
-        for(int n: ar){
-            System.out.print(n+" ");
+        for(int i=0; i<ar.length; i++){
+            int n = ar[i];
+        	System.out.print(n+" ");
         }
         System.out.println("");
     }
